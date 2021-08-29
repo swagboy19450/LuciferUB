@@ -15,7 +15,7 @@ s = """
 ║╔═╗║╚═╝║─║║─║║║╚╣╚═╝║
 ╚╝─╚╩═══╝─╚╝─╚╝╚═╩═══╝
 
- ~ ASTRO UserBot
+ ~ LUCIFER UserBot
  
 """
 print(s)
@@ -35,4 +35,4 @@ with TelegramClient(
     print("")
     print("You can't copy This from here..GO TO YOUR SAVED MESSAGE TO COPY\nIT Can BE FOUND THERE😊")
     siya = siya.send_message("me", f"`{siya.session.save()}`")
-    siya.reply("The Above is the your `STRING_SESSION` FOR your **AstroUB**\nFor any kind of Help Join ~ @Astro_HelpChat")
+    siya.reply("The Above is the your `STRING_SESSION` FOR your **LuciferUB**\nFor any kind of Help Join ~ @Lucifer_support_group")
