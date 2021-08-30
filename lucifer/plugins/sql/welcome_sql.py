@@ -1,5 +1,5 @@
 from sqlalchemy import BigInteger, Boolean, Column, String, UnicodeText
-from astro.plugins.sql import SESSION, BASE
+from lucifer.plugins.sql import SESSION, BASE
 
 
 class Welcome(BASE):
