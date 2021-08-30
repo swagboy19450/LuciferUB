@@ -1,9 +1,9 @@
-# Astro-UB # 
+# Lucifer-UB # 
 
-from astro.plugins.assistant.sql.blacklist_sql import all_bl_users
-from astro.plugins.assistant.sql.userbase_sql import full_userbase
+from lucifer.plugins.assistant.sql.blacklist_sql import all_bl_users
+from lucifer.plugins.assistant.sql.userbase_sql import full_userbase
 from telethon import events
-from astro.plugins import OWNER_ID
+from lucifer.plugins import OWNER_ID
 
 
 @tgbot.on(events.NewMessage(pattern="^/stats", from_users=OWNER_ID))
