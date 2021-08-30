@@ -1,6 +1,6 @@
 import heroku3
 
-from astro.config import Config
+from lucifer.config import Config
 
 herokuclient = heroku3.from_key(Config.HEROKU_API_KEY)
 
