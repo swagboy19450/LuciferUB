@@ -1,5 +1,5 @@
 try:
-    from astro.plugins.sql import SESSION, BASE
+    from lucifer.plugins.sql import SESSION, BASE
 except ImportError:
     raise Exception("Hello!")
 
