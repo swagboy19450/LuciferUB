@@ -1,12 +1,12 @@
-from astro.plugins import ASTRO, OWNER_ID
+from lucifer.plugins import LUCIFER, OWNER_ID
 import time
 from datetime import datetime
-from astro.config import Config 
+from lucifer.config import Config 
 
 # OTHER STARTED WHILE DISABLE BOT 
 others = """
 Hi there. I am {}'s bot. Nice to see you here
-""".format(ASTRO)
+""".format(LUCIFER)
 # Ok you know 
 
 if Config.PMBOT_START_MSSG is None:
@@ -14,7 +14,7 @@ if Config.PMBOT_START_MSSG is None:
 Hi there, I am {}'s personal bot.
 I am Helper BoT 😁
 Contact him from me Just send me Your Message 😌 I will forward him 
-""".format(ASTRO)
+""".format(LUCIFER)
 else:
     MSSG = Config.PMBOT_START_MSSG
 customtxt = MSSG
@@ -22,4 +22,4 @@ customtxt = MSSG
 ownerstart = """
 Hi {} How are you master 
 select What can i do for You Today😁
-""".format(ASTRO)
+""".format(LUCIFER)
