@@ -1,9 +1,9 @@
 
 
-from astro.plugins.assistant.sql.users_sql import get_user_id
+from lucifer.plugins.assistant.sql.users_sql import get_user_id
 from telethon import events
 from telethon.utils import pack_bot_file_id
-from astro.plugins import OWNER_ID
+from lucifer.plugins import OWNER_ID
 
 # outgoing, aka, replying to mssg
 
