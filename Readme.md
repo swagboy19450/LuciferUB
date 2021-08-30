@@ -8,24 +8,24 @@
    <i>ƬӇЄ ƑƲƬƲƦƖṠƬƖƇ ƲƁ</i>
 </p>
 
-<b><h4> ASTRO IS A POWNERFULL, USEFULL TELETHON USERBOT</h4></b>
+<b><h4> LUCIFER IS A POWNERFULL, USEFULL TELETHON USERBOT</h4></b>
 <br>
 <i><h3> 𝚂𝚃𝙰𝚃𝚄𝚂 𝙾𝙵 𝙱𝙾𝚃 </h3></i>
 <br>
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/AstroUB/AstroUB)
-[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg?&style=flat-square)]( https://github.com/AstroUB/AstroUB#copyright--license)
-[![Stars](https://img.shields.io/github/stars/AstroUB/AstroUB?&style=flat-square)]( https://github.com/AstroUB/AstroUB/stargazers)
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/LuciferUB/LuciferUB)
+[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg?&style=flat-square)]( https://github.com/LuciferUB/LuciferUB#copyright--license)
+[![Stars](https://img.shields.io/github/stars/LuciferUB/LuciferUB?&style=flat-square)]( https://github.com/LuciferUB/LuciferUB/stargazers)
 [![Python 3.6](https://img.shields.io/badge/Python-3.9.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
-[![Forks](https://img.shields.io/github/forks/AstroUB/AstroUB?&style=flat-square)]( https://github.com/AstroUB/AstroUB/network/members)
-[![Issues Open](https://img.shields.io/github/issues/AstroUB/AstroUB?&style=flat-square)]( https://github.com/AstroUB/AstroUB/issues)
-[![Issues Closed](https://img.shields.io/github/issues-closed/AstroUB/AstroUB?&style=flat-square)]( https://github.com/AstroUB/AstroUB/issues?q=is:closed)
-[![PR Open](https://img.shields.io/github/issues-pr/AstroUB/AstroUB?&style=flat-square)]( https://github.com/AstroUB/AstroUB/pulls)
-[![PR Closed](https://img.shields.io/github/issues-pr-closed/AstroUB/AstroUB?&style=flat-square)](https://github.com/AstroUB/AstroUB/pulls?q=is:closed)
-![Repo Size](https://img.shields.io/github/repo-size/AstroUB/AstroUB?style=flat-square)
+[![Forks](https://img.shields.io/github/forks/LuciferUB/LuciferUB?&style=flat-square)]( https://github.com/LuciferUB/LuciferUB/network/members)
+[![Issues Open](https://img.shields.io/github/issues/LuciferUB/LuciferUB?&style=flat-square)]( https://github.com/LuciferUB/LuciferUB/issues)
+[![Issues Closed](https://img.shields.io/github/issues-closed/LuciferUB/LuciferUB?&style=flat-square)]( https://github.com/LuciferUB/LuciferUB/issues?q=is:closed)
+[![PR Open](https://img.shields.io/github/issues-pr/LuciferUB/LuciferUB?&style=flat-square)]( https://github.com/LuciferUB/LuciferUB/pulls)
+[![PR Closed](https://img.shields.io/github/issues-pr-closed/LuciferUB/LuciferUB?&style=flat-square)](https://github.com/LuciferUB/LuciferUB/pulls?q=is:closed)
+![Repo Size](https://img.shields.io/github/repo-size/LuciferUB/LuciferUB?style=flat-square)
 <br>
 ### DON'T FORGET TO GIVE STAR🌟
 
-## Why to Choose Astro🌌UserBot🤔?
+## Why to Choose Lucifer🌌UserBot🤔?
 ```
 • 𝙏𝙃𝙄𝙎 𝙄𝙎 𝙑𝙀𝙍𝙔 𝙀𝘼𝙎𝙔 𝙏𝙊 𝘿𝙀𝙋𝙇𝙊𝙔 ✨
 • 𝘿𝙀𝙋𝙇𝙊𝙔𝘼𝘽𝙇𝙀 𝙏𝙊 𝙃𝙀𝙍𝙊𝙆𝙐✓
