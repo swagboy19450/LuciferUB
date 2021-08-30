@@ -42,11 +42,11 @@
 ```
 # <i><b> sᴜᴘᴘ๏ʀᴛ </b></i>
 
-<a href="https://telegram.me/Astro_UserBot" target="_blank"><img src="https://img.shields.io/badge/Join-Astro%20Channel-yellow.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://telegram.me/LuciferXupdates" target="_blank"><img src="https://img.shields.io/badge/Join-Lucifer%20Channel-yellow.svg?style=for-the-badge&logo=Telegram"></a>
 
-<a href="https://telegram.me/Astro_HelpChat" target="_blank"><img src="https://img.shields.io/badge/Join-Astro%20Support-brown.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://telegram.me/Lucifer_support_group" target="_blank"><img src="https://img.shields.io/badge/Join-Lucifer%20Support-brown.svg?style=for-the-badge&logo=Telegram"></a>
 # 𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧
-<a href="https://heroku.com/deploy?template=https://github.com/AstroUB/Astro-UB" target="_blank"><img src="https://img.shields.io/badge/DEPLOY%20TO%20HEROKU-black?style=for-the-badge&logo=heroku" 
+<a href="https://heroku.com/deploy?template=https://github.com/LuciferUB/Lucifer-UB" target="_blank"><img src="https://img.shields.io/badge/DEPLOY%20TO%20HEROKU-black?style=for-the-badge&logo=heroku" 
 height="40px" width="200px" alt="heroku" /></a>
     
 <details><summary> <h1 align="left">𝙂𝙀𝙏 𝘼𝙇𝙇 𝙍𝙀𝙌𝙐𝙄𝙍𝙀𝙈𝙀𝙉𝙏𝙎</h1> </summary>
@@ -78,7 +78,7 @@ height="40px" width="200px" alt="heroku" /></a>
 
 <details><summary><h2 align="left">•𝙃𝙊𝙎𝙏 𝘼𝙎𝙏𝙍𝙊 𝙊𝙉 𝙑𝙋𝙎❄️•</h2></summary>
 
-### 𝙏𝙊 𝙃𝙊𝙎𝙏 𝘼𝙎𝙏𝙍𝙊 𝙊𝙉 𝙑𝙋𝙎/𝙏𝙀𝙍𝙈𝙐𝙓
+### 𝙏𝙊 𝙃𝙊𝙎𝙏 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𝙊𝙉 𝙑𝙋𝙎/𝙏𝙀𝙍𝙈𝙐𝙓
 
 ### Follow The Commands⚙️
 
@@ -87,15 +87,15 @@ height="40px" width="200px" alt="heroku" /></a>
 pkg update && pkg upgrage
 pkg install git 
 # git clone
-git clone https://github.com/AstroUB/AstroUB
-cd AstroUB
+git clone https://github.com/LuciferUB/LuciferUB
+cd LuciferUB
 # Create a virtualENV
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
 # install requirements 
 pip install -r requirements.txt
 # <Create local_config.py with variables as given below>
-python3 -m Astrorun.py
+python3 -m Luciferrun.py
 
 ```
 ### Mandatory Vars 🔌
@@ -112,38 +112,10 @@ python3 -m Astrorun.py
 </details>
 
 
-# YouTube Tutorial 📽️
-### Click On Picture Below To watch YouTube Tutorial..!
-
-<p align="center">
-   
-   <a href="https://youtu.be/vIrfR_tTmls">
-      <img src="resources/ytastro.jpg" height="350px" width="350px" border="2px" alt="astro">
-      </a>
-      <br>
-   <b><i>ƜƛƬƇӇ</i></b><br>
-   <b><i>ƳƠƲƬƲƁЄ ƔƖƊЄƠ</i></b>
-</p>
-
 ## 𝙳𝙴𝚅𝙴𝙻𝙿𝙾𝙴𝚁𝚂
+👉LoverBoy
+👉Manjeet Singh
 
-• 『𝄞⃝Ⱡⓞꪜє℟ 𝅘𝅥𝅯⃝⃤B͛Ꮻ𝐘』🇮🇳:』: <br>
-
- <a href="https://t.me/Alone_loverboy"> <img src="https://img.shields.io/badge/loverboy-leaderdev-black?style=social&logo=telegram" alt="DEVELOPER" /></a>
-<br> 
-
-<a href="https://github.com/loverboyXD" alt="LOVERBOY"><img src="https://img.shields.io/badge/github-Løverbøy-black?logo=github" /></a>
-
-• Light Yagami🇮🇳: <br>
-
- <a href="https://t.me/mrx6767"> <img src="https://img.shields.io/badge/Yagami-Dev-black?style=social&logo=telegram" alt="DEVELOPER" /></a>
- <br> 
- 
- <a href="https://github.com/Lightyagami788" alt="LOVERBOY"><img src="https://img.shields.io/badge/github-Yagami-teal?logo=github" /></a>
- 
- <hr> 
- 
- 
 𝙎𝙋𝙀𝘾𝙄𝘼𝙇 𝙏𝙃𝘼𝙉𝙆𝙎 𝙏𝙊 𝘼𝘿𝙄𝙏𝙔𝘼🇮🇳<br>𝙁𝙊𝙍 𝙃𝙀𝙇𝙋 𝙄𝙉 𝘾𝙊𝘿𝙀𝙎
  
  </hr>
@@ -157,20 +129,9 @@ python3 -m Astrorun.py
 <br> 
 
 <hr>
-𝙎𝙋𝙀𝘾𝙄𝘼𝙇 𝙏𝙃𝘼𝙉𝙆𝙎 𝙏𝙊 𝙃𝘼𝘾𝙆𝙀𝙍🇮🇳<br>𝙁𝙊𝙍 𝙇𝙊𝙂𝙊𝙎 𝘿𝙀𝙎𝙄𝙂𝙉 𝙊𝙁 𝘼𝙎𝙏𝙍𝙊
+Copyright (C) 2021 Lucifer-UB
 
-•∆→  <a href="https://t.me/TERMUXHACKMAX"> <img src="https://img.shields.io/badge/Hacker-Logos_Creator-black?style=social&logo=telegram" alt="DEVELOPER" /></a>
- <br>
- <hr>
- 
- 
- <details><summary> <h3>• 𝙻𝙸𝙲𝙴𝙽𝚂𝙴 •</h3> </summary>
-
-![](https://www.gnu.org/graphics/gplv3-or-later.png)
-
-Copyright (C) 2021 Astro-UB
-
-Poject [Astro-UB](https://github.com/AstroUB/AstroUB) is free software: you can redistribute it and/or modify
+Poject [Lucifer-UB](https://github.com/LuciferUB/LuciferUB) is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
@@ -199,12 +160,12 @@ Released under [GNU](/LICENSE) by [LoverBoy](https://github.com/LoverboyXD) .
 •°• TELETHON °•°
 °•° LomaniWebs For Telethon•°•
 ```
-# ~*Thanks For Using Astro🌌UserBot❤️* 
+# ~*Thanks For Using Lucifer🌌UserBot❤️* 
 
 ### 𝙅𝙊𝙄𝙉 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 𝙏𝙊 𝘽𝙀 𝙐𝙋𝘿𝘼𝙏𝙀𝘿 😄✓ <br> 𝘼𝙉𝘿 <br> 𝙃𝙀𝙇𝙋𝘾𝙃𝘼𝙏 𝙁𝙊𝙍 𝙃𝙀𝙇𝙋✓
 
 <hr>
 
-𝙁𝙊𝙇𝙇𝙊𝙒 𝙈𝙀 𝙊𝙉 [𝙂𝙄𝙏𝙃𝙐𝘽](https://github.com/loverboyXD)
+𝙁𝙊𝙇𝙇𝙊𝙒 𝙈𝙀 𝙊𝙉 [𝙂𝙄𝙏𝙃𝙐𝘽](https://github.com/kaal0408)
 
 <hr>
