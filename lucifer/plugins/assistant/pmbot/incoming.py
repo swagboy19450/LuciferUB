@@ -1,8 +1,8 @@
-# Astro-UB #
-from astro.plugins.assistant.sql.users_sql import add_user_to_db
-from astro.plugins.assistant.sql.blacklist_sql import check_is_black_list
+# Lucifer-UB #
+from lucifer.plugins.assistant.sql.users_sql import add_user_to_db
+from lucifer.plugins.assistant.sql.blacklist_sql import check_is_black_list
 from telethon import events
-from astro.plugins import OWNER_ID
+from lucifer.plugins import OWNER_ID
 
 # if incoming
 
