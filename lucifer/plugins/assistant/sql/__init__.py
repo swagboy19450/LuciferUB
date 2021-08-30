@@ -10,7 +10,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, scoped_session
 
 # the secret configuration specific things
-from astro.config import Config
+from lucifer.config import Config
 
 
 def start() -> scoped_session:
