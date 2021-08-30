@@ -4,18 +4,18 @@ from datetime import datetime
 from pathlib import Path
 
 from telethon.tl.types import InputMessagesFilterDocument
-from astro.config import Config 
-from astro import CMD_HELP
-from astro.utils import admin_cmd, load_module, remove_plugin
+from lucifer.config import Config 
+from lucifer import CMD_HELP
+from lucifer.utils import admin_cmd, load_module, remove_plugin
 
 NAME = Config.NAME
 DELETE_TIMEOUT = 5
-thumb_image_path = "./resources/astro.jpeg"
-DEFAULTUSER = str(NAME) if NAME else "ASTRO USER"
+thumb_image_path = "./resources/lucifer.jpeg"
+DEFAULTUSER = str(NAME) if NAME else "LUCIFER USER"
 
 
-@astro.on(admin_cmd(pattern=r"send (?P<shortname>\w+)", outgoing=True))
-@astro.on(sudo_cmd(pattern=r"send (?P<shortname>\w+)", allow_sudo=True))
+@lucifer.on(admin_cmd(pattern=r"send (?P<shortname>\w+)", outgoing=True))
+@lucifer.on(sudo_cmd(pattern=r"send (?P<shortname>\w+)", allow_sudo=True))
 async def send(event):
     ok = await eor(event, "Sending...")
     if event.fwd_from:
@@ -24,7 +24,7 @@ async def send(event):
     message_id = event.message.id
     thumb = thumb_image_path
     input_str = event.pattern_match.group(1)
-    the_plugin_file = "./astro/plugins/{}.py".format(input_str)
+    the_plugin_file = "./lucifer/plugins/{}.py".format(input_str)
     if os.path.exists(the_plugin_file):
         await ok.delete()
         start = datetime.now()
@@ -39,14 +39,14 @@ async def send(event):
         end = datetime.now()
         time_taken_in_ms = (end - start).seconds
         await pro.edit(
-            f"**► Plugin Name:** `{input_str}`\n**► Uploaded by:** [{DEFAULTUSER}](tg://user?id={hmm})\n\n© @Astro_HelpChat"
+            f"**► Plugin Name:** `{input_str}`\n**► Uploaded by:** [{DEFAULTUSER}](tg://user?id={hmm})\n\n© @Lucifer_support_group"
         )
         await asyncio.sleep(DELETE_TIMEOUT)
     else:
         await ok.edit("**404**: `No Such Plugin!`")
 
 
-@astro.on(admin_cmd(pattern="install"))
+@lucifer.on(admin_cmd(pattern="install"))
 async def install(event):
     if event.fwd_from:
         return
@@ -55,7 +55,7 @@ async def install(event):
             downloaded_file_name = (
                 await event.client.download_media(  # pylint:disable=E0602
                     await event.get_reply_message(),
-                    "astro/plugins/",  # pylint:disable=E0602
+                    "lucifer/plugins/",  # pylint:disable=E0602
                 )
             )
             if "(" not in downloaded_file_name:
@@ -63,7 +63,7 @@ async def install(event):
                 shortname = path1.stem
                 load_module(shortname.replace(".py", ""))
                 await event.edit(
-                    "astro Succesfully Installed The Plugin `{}`".format(
+                    "lucifer Succesfully Installed The Plugin `{}`".format(
                         os.path.basename(downloaded_file_name)
                     )
                 )
@@ -79,7 +79,7 @@ async def install(event):
     await event.delete()
 
 
-@astro.on(admin_cmd(pattern=r"unload (?P<shortname>\w+)$"))
+@lucifer.on(admin_cmd(pattern=r"unload (?P<shortname>\w+)$"))
 async def unload(event):
     if event.fwd_from:
         return
@@ -89,13 +89,13 @@ async def unload(event):
         await event.edit(f"astro has successfully unloaded {shortname}")
     except Exception as e:
         await event.edit(
-            "astro has successfully unloaded {shortname}\n{}".format(
+            "lucifer has successfully unloaded {shortname}\n{}".format(
                 shortname, str(e)
             )
         )
 
 
-@astro.on(admin_cmd(pattern=r"load (?P<shortname>\w+)$"))
+@lucifer.on(admin_cmd(pattern=r"load (?P<shortname>\w+)$"))
 async def load(event):
     if event.fwd_from:
         return
@@ -106,14 +106,14 @@ async def load(event):
         except BaseException:
             pass
         load_module(shortname)
-        await event.edit(f"astro has successfully loaded {shortname}")
+        await event.edit(f"lucifer has successfully loaded {shortname}")
     except Exception as e:
         await event.edit(
-            f"astro could not load {shortname} because of the following error.\n{str(e)}"
+            f"lucifer could not load {shortname} because of the following error.\n{str(e)}"
         )
 
 
-@astro.on(admin_cmd(pattern=r"installall$"))
+@lucifer.on(admin_cmd(pattern=r"installall$"))
 async def install(event):
     if event.fwd_from:
         return
@@ -135,7 +135,7 @@ async def install(event):
     for ixo in total_doxx:
         mxo = documentss[ixo].id
         downloaded_file_name = await event.client.download_media(
-            await event.client.get_messages(event.chat_id, ids=mxo), "astro/plugins/"
+            await event.client.get_messages(event.chat_id, ids=mxo), "lucifer/plugins/"
         )
         if "(" not in downloaded_file_name:
             path1 = Path(downloaded_file_name)
