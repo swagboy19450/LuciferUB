@@ -7,17 +7,17 @@ import requests
 from datetime import datetime
 from telethon import events
 from telethon import Button, events 
-from astro.plugins.assistant import *
-from astro.plugins import ASTRO
-from astro.plugins.assistant.sql.blacklist_sql import all_bl_users
-from astro.plugins.assistant.sql.userbase_sql import add_to_userbase, present_in_userbase, full_userbase
+from lucifer.plugins.assistant import *
+from lucifer.plugins import LUCIFER
+from lucifer.plugins.assistant.sql.blacklist_sql import all_bl_users
+from lucifer.plugins.assistant.sql.userbase_sql import add_to_userbase, present_in_userbase, full_userbase
 
-from astro.config import Config 
+from lucifer.config import Config 
 from telegraph import Telegraph, upload_file
 
 
 ####  Config ####
-PR_PIC = "https://telegra.ph/file/7a60b27305a9099da8570.jpg"
+PR_PIC = "https://telegra.ph/file/73373552e9217e010e853.jpg"
 PM_TEXT = Config.PM_TEXT
 PM_PIC = Config.PM_PIC
 A_PIC = Config.A_PIC
@@ -97,7 +97,7 @@ async def start_by_owner(event):
             Button.inline("BroadCast📡", data="broad")
           ],
           [
-            Button.url("🔻Support 🔺", url="https://t.me/Astro_HelpChat")],
+            Button.url("🔻Support 🔺", url="https://t.me/Lucifer_support_group")],
             ],
           )
           
@@ -108,13 +108,13 @@ async def fck(event):
     await event.delete()
     await tgbot.send_message(event.chat_id, f"This is Astro UserBot for {OWNER_USERNAME} 😊 To protect him from scammers and lots more...!\n**IF YOU ALSO WANT FOR YOUR ACCOUNT DEPLOY NOW**\n **JOIN SUPPORT FOR HELP**", buttons=[
         [
-          Button.url("Deploy Now🌌", url="https://heroku.com/deploy?template=https://github.com/AstroUB/AstroUB")
+          Button.url("Deploy Now🌌", url="https://heroku.com/deploy?template=https://github.com/LuciferUB/LuciferUB")
         ],
         [
-          Button.url("Repository✨", url="https://github.com/AstroUB/AstroUB")
+          Button.url("Repository✨", url="https://github.com/LuciferUB/LuciferUB")
         ],
         [
-          Button.url("🔻Support🔺", url="https://t.me/Astro_HelpChat")
+          Button.url("🔻Support🔺", url="https://t.me/Lucifer_support_group")
           ],
         ])
      
@@ -222,7 +222,7 @@ async def a_txt(event):
                 return await conv.send_message("Cancelled!!")
                 heroku_var=app.config()
             xx = await tgbot.send_message(event.chat_id, "Changing your Alive Message, please wait for a minute")
-            heroku_var[astrobot]=f"{themssg}"
+            heroku_var[luciferbot]=f"{themssg}"
             mssg=f"Changed your alive text from\n`{old_alv}`\nto\n`{themssg}`\n"
             await xx.edit(mssg)
     else:
@@ -251,7 +251,7 @@ async def pmpic(event):
                 await conv.send_message("Cancelled!!")
             heroku_var=app.config()
             xx = await tgbot.send_message(event.chat_id, "Changing Your ALIVE_PIC❤️Give me 3min..and Check Your Private group😁")
-            heroku_var[astrobot]=f"{themssg}"
+            heroku_var[luciferbot]=f"{themssg}"
             mssg=f"Changed your ALIVE PIC FROM\n`{old_hndlr}`\nto\n`{themssg}`\n"
             await xx.edit(mssg)
     else:
@@ -281,7 +281,7 @@ async def a_txt(event):
                 await conv.send_message("Cancelled!!")
             heroku_var=app.config()
             xx = await tgbot.send_message(event.chat_id, "Changing your Alive Name, please wait for a minute")
-            heroku_var[astrobot]=f"{themssg}"
+            heroku_var[luciferbot]=f"{themssg}"
             mssg=f"Changed your Name from\n`{old_alv}`\nto\n`{themssg}`\n"
             await xx.edit(mssg)
     else:
@@ -340,7 +340,7 @@ async def pmpic(event):
                 await conv.send_message("Cancelled!!")
             heroku_var=app.config()
             xx = await tgbot.send_message(event.chat_id, "Changing Your PM_PIC❤️Give me 3min..and Check Your Private group😁")
-            heroku_var[astrobot]=f"{themssg}"
+            heroku_var[luciferbot]=f"{themssg}"
             mssg=f"Changed your PM_PIC from\n`{old_hndlr}`\nto\n`{themssg}`\n"
             await xx.edit(mssg)
     else:
@@ -370,7 +370,7 @@ async def a_txt(event):
                 await conv.send_message("Cancelled!!")
             heroku_var=app.config()
             xx = await tgbot.send_message(event.chat_id, "Changing your Command Handler, please wait for a minute")
-            heroku_var[astrobot]=f"{themssg}"
+            heroku_var[luciferbot]=f"{themssg}"
             mssg=f"Changed your Handlr from\n`{old_hndlr}`\nto\n`{themssg}`\n"
             await xx.edit(mssg)
     else:
