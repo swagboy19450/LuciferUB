@@ -1,5 +1,5 @@
 from sqlalchemy import Boolean, Column, String
-from astro.plugins.sql import SESSION, BASE
+from lucifer.plugins.sql import SESSION, BASE
 
 
 class Locks(BASE):
