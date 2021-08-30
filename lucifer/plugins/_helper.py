@@ -1,14 +1,14 @@
-# For Astro-UB 
+# For Lucifer-UB 
 # OPEN CMD_LIST 
 
 import os
 
-from astro import CMD_HELP, CMD_HNDLR, CMD_LIST
-from astro.config import Config
+from lucifer import CMD_HELP, CMD_HNDLR, CMD_LIST
+from lucifer.config import Config
 
 NAME = Config.NAME
 
-DEFAULTUSER = str(NAME) if NAME else "Astro User✨"
+DEFAULTUSER = str(NAME) if NAME else "Lucifer User✨"
 CMD_HNDLR = Config.HNDLR
 CUSTOM_HELP_EMOJI = os.environ.get("CUSTOM_HELP_EMOJI", "✨")
 
@@ -49,18 +49,18 @@ async def cmd_list(event):
                 if input_str in CMD_HELP:
                     for i in CMD_HELP[input_str]:
                         string += i
-                    string += "\n\n**© @Astro_HelpChat**™"
+                    string += "\n\n**© @Lucifer_support_group**™"
                     await event.edit(string)
                 else:
                     for i in CMD_LIST[input_str]:
                         string += "    " + i
                         string += "\n"
-                    string += "\n**© @Astro_HelpChat**™"
+                    string += "\n**© @Lucifer_support_group**™"
                     await event.edit(string)
             else:
                 await event.edit(input_str + " is not in My Plugins list!")
         else:
-            help_string = f"""Hellow {DEFAULTUSER} This is ƛsτʀ๏ нєłρ мєηυ All Commands Are Available here..\nReport at [Astro_HelpChat](https://t.me/Astro_HelpChat) if any if them is **Not Working**"""
+            help_string = f"""Hellow {DEFAULTUSER} This is Lucifer нєłρ мєηυ All Commands Are Available here..\nReport at [Lucifer_Chat](https://t.me/Lucifer_support_group) if any if them is **Not Working**"""
             try:
                 results = await bot.inline_query(  # pylint:disable=E0602
                     tgbotusername, help_string
@@ -71,5 +71,5 @@ async def cmd_list(event):
                 await event.delete()
             except BaseException:
                 await event.edit(
-                    f"ӇЄԼԼƠ Ɩ ƛM ƝƠƬ ƛƁԼЄ ƬƠ ƦЄƔЄƛԼ ƛԼԼ ƇƠMMƛƝƊƧ ƁЄƇƛƲƧЄ MƳ ƖƝԼƖƝЄ ƖƧ ƊƖƧƛƁԼЄƊ 🤷🤦ƓЄƬ ӇЄԼƤ ƑƦƠM [Astro_HelpChat](https://t.me/Astro_HelpChat)", link_preview=False
+                    f"ӇЄԼԼƠ Ɩ ƛM ƝƠƬ ƛƁԼЄ ƬƠ ƦЄƔЄƛԼ ƛԼԼ ƇƠMMƛƝƊƧ ƁЄƇƛƲƧЄ MƳ ƖƝԼƖƝЄ ƖƧ ƊƖƧƛƁԼЄƊ 🤷🤦ƓЄƬ ӇЄԼƤ ƑƦƠM [Lucifer_Chat](https://t.me/Lucifer_support_group)", link_preview=False
                 )
