@@ -1,10 +1,10 @@
-<p align="center"><h1 align="center"><b> 🌌ƛsτʀ๏ υsєяъ๏т🇮🇳</b></h1></p>
+<p align="center"><h1 align="center"><b> 🌌Lucifer υsєяъ๏т🇮🇳</b></h1></p>
 <p align="center">
-   <a href="https://t.me/Astro_UserBot">
+   <a href="https://t.me/Lucifer_support_group">
       <img src="resources/astroreadme.jpg" border="1px" alt="astro">
       </a>
       <br>
-   <b>ƛsτʀ๏ υsєяъ๏т</b><br>
+   <b>Lucifer υsєяъ๏т</b><br>
    <i>ƬӇЄ ƑƲƬƲƦƖṠƬƖƇ ƲƁ</i>
 </p>
 
