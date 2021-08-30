@@ -1,8 +1,8 @@
 import time 
 from datetime import datetime 
-from astro import bot
-from astro.plugins import ASTRO, OWNER_ID
-from astro.config import Config 
+from lucifer import bot
+from lucifer.plugins import LUCIFER, OWNER_ID
+from lucifer.config import Config 
 ### Config ### 
  
 
@@ -16,20 +16,14 @@ async def _(event):
     end = datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f"""
-╔═══╗
-║╔═╗║
-║╚═╝╠══╦═╗╔══╗
-║╔══╣╔╗║╔╗╣╔╗║
-║║──║╚╝║║║║╚╝║
-╚╝──╚══╩╝╚╩═╗║
-──────────╔═╝║
-──────────╚══╝
-★彡ƛsτʀ๏ sєяѵıcє is ON彡★
+PONG
+★彡Lucifer sєяѵıcє is ON彡★
 
 ⎝⎝⍟мẏ мṩ ➣ `{ms}s` ⎠⎠\n
-|✗ ʍʏ σωηєя➢ [{ASTRO}](tg://user?id={OWNER_ID}) ✗|
+|✗ ʍʏ σωηєя➢ [{LUCIFER}](tg://user?id={OWNER_ID}) ✗|
  \n
- ~ ƛsτʀ๏ υsєяъ๏т ~
+ ~ LUCIFER υsєяъ๏т ~
 """)
 # © @Alone_loverboy 
 # FOR OWN ASTRO UserBot
+#now in Lucifer userbot
