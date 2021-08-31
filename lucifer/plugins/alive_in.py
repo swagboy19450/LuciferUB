@@ -13,7 +13,7 @@ from telethon.errors.rpcerrorlist import BotMethodInvalidError as barsh
 # Configs #
 botname = Config.BOT_USERNAME
 NAME = Config.NAME
-A_PIC = Config.A_PIC if Config.A_PIC else "https://telegra.ph/file/bc41c5a01e076dfc15293.mp4"
+A_PIC = Config.A_PIC if Config.A_PIC else "https://telegra.ph/file/73373552e9217e010e853.jpg"
 A_TEXT = Config.A_TEXT if Config.A_TEXT else " This is Lucifer\n   Ready in your protection"
 emoji = "**❅**" 
 emoji2 = "༺"
