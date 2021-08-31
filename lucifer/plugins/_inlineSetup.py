@@ -42,7 +42,7 @@ A_PIC = Config.A_PIC
 ALIVE_PIC = (
     A_PIC 
     if A_PIC 
-    else "https://telegra.ph/file/bc41c5a01e076dfc15293.mp4"
+    else "https://telegra.ph/file/73373552e9217e010e853.jpg"
 )
 
 ALIVE_TEXT = (
@@ -54,7 +54,7 @@ PM_PIC = os.environ.get("PM_PIC", None)
 LUCIFER_PIC = (
     PM_PIC
     if PM_PIC
-    else "https://telegra.ph/file/1dc4cf071ecd2be57e30a.jpg"
+    else "https://telegra.ph/file/73373552e9217e010e853.jpg"
 )
 emoji = "**❅**" 
 emoji2 = "༺"
@@ -74,7 +74,7 @@ MESAG = (
     if CUSTOM_PMPERMIT
     else "This is Pro Security By Lucifer υsєяъ๏т To my Master...!"
 )
-MYUSER = f"[{ASTRO}](tg://user?id={OWNER_ID})"
+MYUSER = f"[{LUCIFER}](tg://user?id={OWNER_ID})"
 
 ALV_TXT = f"""     
 
