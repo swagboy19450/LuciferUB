@@ -17,10 +17,8 @@ async def _(event):
     ms = (end - start).microseconds / 1000
     await event.edit(f"""
 PONG
-★彡Lucifer sєяѵıcє is ON彡★
-
-⎝⎝⍟мẏ мṩ ➣ `{ms}s` ⎠⎠\n
-|✗ ʍʏ σωηєя➢ [{LUCIFER}](tg://user?id={OWNER_ID}) ✗|
+⎝⎝⍟my ms ➣ `{ms}s` ⎠⎠\n
+|✗ ny owner➢ [{LUCIFER}](tg://user?id={OWNER_ID}) ✗|
  \n
  ~ LUCIFER υsєяъ๏т ~
 """)
