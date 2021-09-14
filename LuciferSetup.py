@@ -35,4 +35,4 @@ with TelegramClient(
     print("")
     print("You can't copy This from here..GO TO YOUR SAVED MESSAGE TO COPY\nIT Can BE FOUND THERE😊")
     siya = siya.send_message("me", f"`{siya.session.save()}`")
-    siya.reply("The Above is the your `STRING_SESSION` FOR your **LuciferUB**\nFor any kind of Help Join ~ @Lucifer_support_group")
+    siya.reply("The Above is the your `STRING_SESSION` FOR your **LuciferUB**\nFor any kind of Help Join ~ @LUCIFER_USERBOTT")
