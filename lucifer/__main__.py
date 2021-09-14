@@ -23,7 +23,7 @@ async def add_bot(bot_token):
 
 async def startup_log_all_done():
     try:
-        await bot.send_message(GROUP, f"Hey..{OWNER_USERNAME} LUCIFER IS ON👮\nFor Your security😌\nNow you are 100% Safe By astro-Security😉\nUSE `.alive` To check me😁\n\n Add {BOT_USERNAME} To get Notifications Related to Astro-UB \n~Enjoy~\n\n~ @Lucifer_support_group")
+        await bot.send_message(GROUP, f"Hey..{OWNER_USERNAME} LUCIFER IS ON👮\nFor Your security😌\nNow you are 100% Safe By astro-Security😉\nUSE `.alive` To check me😁\n\n Add {BOT_USERNAME} To get Notifications Related to Astro-UB \n~Enjoy~\n\n~ @LUCIFER_USERBOTT")
     except BaseException:
         print("Either PRIVATE_GROUP_ID is wrong or you have left the group.")
 
@@ -79,7 +79,7 @@ print("TGBot set up - Level - Basic")
 print("Lucifer has been fully deployed!")
 print("||•||°••°Lucifer υsєяъ๏т°••°||•||")
 print("~VISIT HELP CHAT FOR MORE~")
-print("°•°•°•°•°•Do Visit @Lucifer_support_group•°•°•°•°•°•°•")
+print("°•°•°•°•°•Do Visit @LUCIFER_USERBOTT•°•°•°•°•°•°•")
 
 bot.loop.run_until_complete(startup_log_all_done())
 
